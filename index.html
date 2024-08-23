@@ -4,49 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Header with Menu -->
     <header>
-        <img src="images/logo.png" alt="University Logo" class="logo">
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a>
-                    <ul class="dropdown">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="team.html">Team</a></li>
-                    </ul>
-                </li>
-                <li><a href="asv.html">ASV</a></li>
-                <li><a href="#">Papers</a>
-                    <ul class="dropdown">
-                        <li><a href="papers.html">Individual</a></li>
-                        <li><a href="#">Team</a></li>
-                    </ul>
-                </li>
-                <li><a href="sponsors.html">Sponsors</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><input type="text" placeholder="Search..." class="search-bar"></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="images/logo.png" alt="University Logo" class="logo">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a>
+                        <ul class="dropdown">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="team.html">Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="asv.html">ASV</a></li>
+                    <li><a href="#">Papers</a>
+                        <ul class="dropdown">
+                            <li><a href="papers.html">Individual</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><input type="text" placeholder="Search..." class="search-bar"></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
     </header>
 
     <!-- Main Content -->
     <main>
-        <h1>Welcome to Our University Website</h1>
-        <p>One-liner description of the website.</p>
-        <a href="#" class="button">Know More</a>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Our University</h1>
+                <p>Your gateway to a brighter future. Discover more about us.</p>
+                <a href="#" class="button">Know More</a>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>Created by Me</p>
-        <p>Address | Map | University Logo</p>
-        <p><a href="index.html">Home</a> | <a href="team.html">Team</a> | <a href="sponsors.html">Sponsors</a> | <a href="contact.html">Contact Us</a></p>
+        <div class="container">
+            <p>Created by Me</p>
+            <p>Address | Map | University Logo</p>
+            <p><a href="index.html">Home</a> | <a href="team.html">Team</a> | <a href="sponsors.html">Sponsors</a> | <a href="contact.html">Contact Us</a></p>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
 </html>
+
