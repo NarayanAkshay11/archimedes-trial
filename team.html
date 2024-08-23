@@ -4,42 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="University Logo" class="logo">
-        <nav>
-            <!-- Same nav as index.html -->
-        </nav>
+        <div class="container">
+            <img src="images/logo.png" alt="University Logo" class="logo">
+            <nav>
+                <!-- Same nav as index.html -->
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
     </header>
 
     <main>
-        <h1>Meet Our Team</h1>
-        <div class="team-cards">
-            <!-- Add cards for each team member -->
-            <div class="card">
-                <h2>John Doe</h2>
-                <p>Role: Developer</p>
-                <div class="social-icons">
-                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                    <a href="#"><img src="images/github.png" alt="GitHub"></a>
-                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        <section class="team-section">
+            <div class="container">
+                <h1>Meet Our Team</h1>
+                <div class="team-cards">
+                    <!-- Sample Team Member 1 -->
+                    <div class="card">
+                        <img src="images/team1.jpg" alt="Team Member 1">
+                        <h2>John Doe</h2>
+                        <p>Role: Developer</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                            <a href="#"><img src="images/github.png" alt="GitHub"></a>
+                            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <!-- Sample Team Member 2 -->
+                    <div class="card">
+                        <img src="images/team2.jpg" alt="Team Member 2">
+                        <h2>Jane Smith</h2>
+                        <p>Role: Designer</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                            <a href="#"><img src="images/github.png" alt="GitHub"></a>
+                            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <!-- Add more cards... -->
+                </div>
+                <div class="counter">
+                    <div class="counter-item">
+                        <span id="students-count">0</span>
+                        <p>Total Students</p>
+                    </div>
+                    <div class="counter-item">
+                        <span id="participations-count">0</span>
+                        <p>Number of Participations</p>
+                    </div>
+                    <div class="counter-item">
+                        <span id="schools-count">0</span>
+                        <p>Number of Schools</p>
+                    </div>
                 </div>
             </div>
-            <!-- More cards... -->
-        </div>
-        <div class="counter">
-            <p>Total Students: <span id="students-count">0</span></p>
-            <p>Number of Participations: <span id="participations-count">0</span></p>
-            <p>Number of Schools: <span id="schools-count">0</span></p>
-        </div>
+        </section>
     </main>
 
     <footer>
-        <!-- Same footer as index.html -->
+        <div class="container">
+            <p>Created by Me</p>
+            <p>Address | Map | University Logo</p>
+            <p><a href="index.html">Home</a> | <a href="team.html">Team</a> | <a href="sponsors.html">Sponsors</a> | <a href="contact.html">Contact Us</a></p>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
 </html>
+
