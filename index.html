@@ -1,0 +1,77 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maritime Competition Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Team Logo" class="logo">
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">About ▼</a>
+                    <div class="dropdown-content">
+                        <a href="about.html">About Us</a>
+                        <a href="team.html">Our Team</a>
+                        <a href="pdpp.html">PDPP</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Dropdown 1 ▼</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Dropdown 2 ▼</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home-video">
+            <video autoplay muted loop>
+                <source src="maritime_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="counter">
+            <h2>Participating Schools</h2>
+            <div class="counter-container">
+                <div class="counter" data-target="21">0</div>
+                <div class="school-names">SCSE, MAE, ETC</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="address">
+                <h3>Our Address</h3>
+                <p>123 Maritime Avenue, Ocean City, 12345</p>
+            </div>
+            <div class="university-image">
+                <img src="university.jpg" alt="University Image">
+            </div>
+            <div class="creator">
+                <p>Website created by [Your Name]</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
