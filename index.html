@@ -1,103 +1,52 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maritime Competition Team</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script.js" defer></script>
+    <title>University Website</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Header with Menu -->
     <header>
-        <div class="header-content">
-            <img src="logo (1).png" alt="Team Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">About ▼</a>
-                        <div class="dropdown-content">
-                            <a href="about.html">About Us</a>
-                            <a href="team.html">Our Team</a>
-                            <a href="pdpp.html">PDPP</a>
-                        </div>
-                    </li>
-                    <li><a href="sponsors.html">Sponsors</a></li>
-                    <li><a href="papers.html">Papers</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">More ▼</a>
-                        <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <div class="search-container">
-                <input type="text" placeholder="Search..." id="search-input">
-                <button type="button" id="search-button"><i class="fas fa-search"></i></button>
-            </div>
-        </div>
+        <img src="images/logo.png" alt="University Logo" class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a>
+                    <ul class="dropdown">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </li>
+                <li><a href="asv.html">ASV</a></li>
+                <li><a href="#">Papers</a>
+                    <ul class="dropdown">
+                        <li><a href="papers.html">Individual</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                </li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><input type="text" placeholder="Search..." class="search-bar"></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
-        <section id="home-video">
-            <video autoplay muted loop>
-                <source src="maritime_video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="overlay">
-                <h1>Welcome to Our Maritime Competition Team</h1>
-                <a href="#" class="cta-button">Learn More</a>
-            </div>
-        </section>
-
-        <section id="counter">
-            <h2>Participating Schools</h2>
-            <div class="counter-container">
-                <div class="counter" data-target="21">0</div>
-                <div class="school-names">SCSE, MAE, ETC</div>
-            </div>
-        </section>
+        <h1>Welcome to Our University Website</h1>
+        <p>One-liner description of the website.</p>
+        <a href="#" class="button">Know More</a>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Contact Us</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Maritime Avenue, Ocean City, 12345</p>
-                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
-                <p><i class="fas fa-envelope"></i> info@maritimeteam.com</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Follow Us</h3>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Maritime Competition Team. All rights reserved. | Website created by [Your Name]</p>
-        </div>
-        <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654248049501!2d-87.63123908455698!3d41.89027627922126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca8b34afe61%3A0x6caeb5f721ca846!2sNavy%20Pier!5e0!3m2!1sen!2sus!4v1628726293888!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+        <p>Created by Me</p>
+        <p>Address | Map | University Logo</p>
+        <p><a href="index.html">Home</a> | <a href="team.html">Team</a> | <a href="sponsors.html">Sponsors</a> | <a href="contact.html">Contact Us</a></p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
