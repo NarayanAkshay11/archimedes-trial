@@ -33,4 +33,12 @@ $(document).ready(function() {
             $(window).off('scroll'); // Remove the scroll event listener after animation
         }
     });
+
+    // Search functionality
+    $('#search-button').click(function() {
+        var searchTerm = $('#search-input').val().toLowerCase();
+        // Implement your search logic here
+        alert('Searching for: ' + searchTerm);
+        // You would typically send this to a server-side script to search your content
+    });
 });
